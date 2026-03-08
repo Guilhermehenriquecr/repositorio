@@ -43,7 +43,7 @@ const SOLUTIONS: Solution[] = [
       "Modelos de séries temporais e Machine Learning para previsão de demanda",
       "Visualização geoespacial por município, região e território",
     ],
-    tags: ["Python", "Power BI", "Tableau", "Séries Temporais", "Estatística", "Machine Learning"],
+    tags: ["Python", "Power BI", "Tableau", "SQL", "DAX", "Séries Temporais", "Estatística", "Machine Learning", "Deep Learning"],
     color: "#C084FC",
     gradient: "from-purple-950 via-purple-900 to-violet-900",
     accentFrom: "from-purple-500",
