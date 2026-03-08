@@ -31,7 +31,12 @@ export type Tag =
   | "SAP"
   | "ETL"
   | "RPA"
-  | "Selenium";
+  | "Selenium"
+  | "CrewAI"
+  | "N8N"
+  | "RAG"
+  | "LangGraph"
+  | "LangChain";
 
 export type Project = {
   id: string;
@@ -118,6 +123,30 @@ export const PROJECTS: Project[] = [
       "Previsão de chuva integrada ao planejamento comercial",
       "Deploy em Docker para produção",
       "Autenticação JWT e segurança com Helmet",
+    ],
+    isRestricted: false,
+    category: "Full-Stack",
+  },
+  {
+    id: "agentes-ia",
+    title: "Agentes Conversacionais com IA Generativa",
+    subtitle: "Assistentes inteligentes para múltiplos segmentos",
+    summary:
+      "Agentes conversacionais com IA generativa para agronegócio, jurídico, financeiro, educação e psicologia. Orquestração multi-agente com CrewAI e LangGraph, RAG para base de conhecimento especializada, automação via N8N e integração com WhatsApp e e-mail.",
+    description:
+      "Solução multi-agente com CrewAI e LangGraph para orquestração de LLMs especializados por domínio. Cada agente possui persona, ferramentas e base de conhecimento próprias via RAG. Fluxos de automação via N8N conectam os agentes a canais externos como WhatsApp e e-mail.",
+    longDescription:
+      "Plataforma de agentes conversacionais que aplica RAG (Retrieval-Augmented Generation) para dotar cada agente de base de conhecimento especializada por segmento — agronegócio, jurídico, financeiro, educação e psicologia. A orquestração multi-agente é feita com CrewAI e LangGraph, permitindo fluxos complexos de raciocínio e colaboração entre agentes. A automação de integrações via N8N conecta os agentes a canais externos como WhatsApp Business API e e-mail, entregando assistentes prontos para produção com streaming de respostas em tempo real via FastAPI.",
+    tags: ["Python", "FastAPI", "Next.js", "OpenAI", "CrewAI", "N8N", "RAG", "LangGraph", "LangChain"],
+    icon: "🤖",
+    color: "#7C3AED",
+    gradient: "from-violet-900 to-indigo-800",
+    highlights: [
+      "RAG com base de conhecimento especializada por segmento (agronegócio, jurídico, financeiro, educação, psicologia)",
+      "Orquestração multi-agente com CrewAI e LangGraph: roles, goals e fluxos de raciocínio definidos",
+      "Automação de integrações via N8N: WhatsApp Business API, e-mail e APIs externas",
+      "Streaming de respostas em tempo real via FastAPI + SSE",
+      "Arquitetura modular: base única, múltiplos perfis de especialidade implantáveis independentemente",
     ],
     isRestricted: false,
     category: "Full-Stack",
