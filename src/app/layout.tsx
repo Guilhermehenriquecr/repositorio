@@ -15,6 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.svg",
+  },
   title: "Guilherme Henrique Cardoso — Portfólio",
   description:
     "Portfólio de Guilherme Henrique Cardoso — Engenheiro de Dados & Especialista em Otimização. Projetos em Python, VRP, Machine Learning e Full-Stack.",
