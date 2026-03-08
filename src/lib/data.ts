@@ -143,8 +143,9 @@ export const PROJECTS: Project[] = [
     gradient: "from-violet-900 to-indigo-800",
     highlights: [
       "RAG com base de conhecimento especializada por segmento (agronegócio, jurídico, financeiro, educação, psicologia)",
+      "Consulta inteligente a documentos, PDFs, livros e bases de conhecimento via RAG com chunking e embeddings",
       "Orquestração multi-agente com CrewAI e LangGraph: roles, goals e fluxos de raciocínio definidos",
-      "Automação de integrações via N8N: WhatsApp Business API, e-mail e APIs externas",
+      "Automação de integrações via N8N: WhatsApp Business API, Google Agenda, e-mail e Suíte Office",
       "Streaming de respostas em tempo real via FastAPI + SSE",
       "Arquitetura modular: base única, múltiplos perfis de especialidade implantáveis independentemente",
     ],
