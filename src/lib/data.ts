@@ -339,7 +339,9 @@ export const SKILLS = [
     category: "IA & Machine Learning",
     icon: "🧠",
     items: [
-      { name: "Machine Learning Aplicado", level: 73 },
+      { name: "Modelos de Classificação & Regressão", level: 73 },
+      { name: "Ensemble Methods (XGBoost, Random Forest)", level: 68 },
+      { name: "Feature Engineering & Seleção de Variáveis", level: 70 },
       { name: "Redes Neurais", level: 68 },
       { name: "NLP (Processamento de Linguagem Natural)", level: 70 },
       { name: "Computer Vision", level: 62 },
