@@ -3,7 +3,7 @@ export const PROFILE = {
   role: "Engenheiro de Produção | IA, Dados & Decisão Estratégica",
   roleEn: "AI, Data & Decision Intelligence Professional",
   tagline:
-    "Engenheiro de Produção, mestrando em Otimização e MBA em andamento em Pesquisa Operacional e Tomada de Decisão (Universidade Estadual do Vale do Acaraú - UVA). Há 6+ anos aplico modelos matemáticos, estatísticos e de otimização para resolver problemas complexos em escala com IA, automação e suporte à decisão.",
+    "Mais de 6 anos criando soluções para transformar dados e problemas complexos em decisões mais inteligentes, rápidas e eficazes.",
   location: "Brasil",
   email: "guicardoso9@gmail.com",
   github: "https://github.com/guilherme-resende",
