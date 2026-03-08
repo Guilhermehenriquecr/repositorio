@@ -30,7 +30,7 @@ const ABOUT_HIGHLIGHTS = [
   {
     icon: <Globe className="w-5 h-5" />,
     title: "Sistemas de Suporte à Decisão",
-    desc: "Simuladores paramétricos, dashboards executivos com KPIs e modelos preditivos integrados diretamente aos fluxos de decisão do negócio.",
+    desc: "Criação de soluções que apoiam a tomada de decisão com dados, cenários e indicadores estratégicos voltados à performance do negócio.",
     color: "text-orange-400",
     bg: "bg-orange-500/10 border-orange-500/20",
   },
