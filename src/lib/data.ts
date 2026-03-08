@@ -36,7 +36,8 @@ export type Tag =
   | "N8N"
   | "RAG"
   | "LangGraph"
-  | "LangChain";
+  | "LangChain"
+  | "OpenCV";
 
 export type Project = {
   id: string;
@@ -151,6 +152,30 @@ export const PROJECTS: Project[] = [
     ],
     isRestricted: false,
     category: "Full-Stack",
+  },
+  {
+    id: "classificador-docs",
+    title: "Classificador de Documentos com Visão Computacional",
+    subtitle: "Validação automática de documentos para instituições financeiras",
+    summary:
+      "Sistema de visão computacional para classificar documentos pessoais como aptos ou inaptos para abertura de conta e operações bancárias. Atende regras específicas de Santander, Bradesco, BRB e Itaú, retornando a probabilidade de aceitação por instituição.",
+    description:
+      "Sistema de visão computacional com OpenCV para análise e classificação automática de documentos pessoais segundo critérios específicos de múltiplas instituições financeiras.",
+    longDescription:
+      "Pipeline de visão computacional que recebe documentos pessoais como entrada, aplica pré-processamento de imagem com OpenCV, extrai features relevantes e classifica cada documento como apto ou inapto segundo as regras de cada banco (Santander, Bradesco, BRB e Itaú). O sistema retorna a probabilidade de aceitação por instituição, eliminando a análise manual e padronizando o processo de validação documental.",
+    tags: ["Python", "OpenCV", "Machine Learning"],
+    icon: "👁️",
+    color: "#0EA5E9",
+    gradient: "from-sky-900 to-blue-800",
+    highlights: [
+      "Classificação automática de documentos pessoais com OpenCV e modelos de ML",
+      "Regras de validação específicas por banco: Santander, Bradesco, BRB e Itaú",
+      "Retorno de probabilidade de aceitação por instituição financeira",
+      "Pipeline de pré-processamento de imagem: detecção de bordas, binarização e extração de features",
+      "Redução do tempo de análise manual e padronização do processo de validação",
+    ],
+    isRestricted: false,
+    category: "Análise",
   },
   // PROJETOS RESTRITOS — Boa Safra
   {
