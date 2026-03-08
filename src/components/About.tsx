@@ -9,7 +9,7 @@ const ABOUT_HIGHLIGHTS = [
   {
     icon: <Database className="w-5 h-5" />,
     title: "Engenharia de Dados",
-    desc: "Pipelines de dados robustos integrando sistemas ERP (SAP), CRM (Salesforce) e fontes externas com Python e SQL.",
+    desc: "Desenvolvimento de soluções de dados para integrar informações, automatizar fluxos e apoiar análises e decisões.",
     color: "text-sky-400",
     bg: "bg-sky-500/10 border-sky-500/20",
   },
