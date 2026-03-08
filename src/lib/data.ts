@@ -26,7 +26,12 @@ export type Tag =
   | "SQL"
   | "Docker"
   | "Node.js"
-  | "OpenAI";
+  | "OpenAI"
+  | "NestJS"
+  | "SAP"
+  | "ETL"
+  | "RPA"
+  | "Selenium";
 
 export type Project = {
   id: string;
@@ -41,7 +46,7 @@ export type Project = {
   gradient: string;
   highlights: string[];
   isRestricted: boolean;
-  category: "Otimização" | "Dados" | "Full-Stack" | "Análise";
+  category: "Otimização" | "Dados" | "Full-Stack" | "Análise" | "Automação";
 };
 
 export const PROJECTS: Project[] = [
