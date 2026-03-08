@@ -308,6 +308,9 @@ export const SKILLS = [
       { name: "Python", level: 88 },
       { name: "TypeScript / JavaScript", level: 67 },
       { name: "SQL", level: 72 },
+      { name: "FastAPI", level: 75 },
+      { name: "React / Next.js", level: 62 },
+      { name: "NestJS / Node.js", level: 60 },
     ],
   },
   {
@@ -316,12 +319,12 @@ export const SKILLS = [
     items: [
       { name: "Pandas / NumPy", level: 86 },
       { name: "Séries Temporais", level: 77 },
-      { name: "Dashboards (Tableau, Power BI, Streamlit)", level: 79 },
+      { name: "Power BI / Tableau / Streamlit", level: 79 },
       { name: "ETL / Pipelines de Dados", level: 82 },
     ],
   },
   {
-    category: "Otimização & IA",
+    category: "Otimização & Pesquisa Operacional",
     icon: "🧮",
     items: [
       { name: "Google OR-Tools (VRP/CP-SAT)", level: 85 },
@@ -330,10 +333,27 @@ export const SKILLS = [
       { name: "Otimização Multi-objetivo (NSGA-II / Pareto)", level: 71 },
       { name: "Programação Dinâmica", level: 74 },
       { name: "Otimização Estocástica & Robusta", level: 67 },
+    ],
+  },
+  {
+    category: "IA & Machine Learning",
+    icon: "🧠",
+    items: [
       { name: "Machine Learning Aplicado", level: 73 },
       { name: "Redes Neurais", level: 68 },
       { name: "NLP (Processamento de Linguagem Natural)", level: 70 },
       { name: "Computer Vision", level: 62 },
+    ],
+  },
+  {
+    category: "IA Generativa & Agentes",
+    icon: "🤖",
+    items: [
+      { name: "LLMs / OpenAI API", level: 78 },
+      { name: "RAG (Retrieval-Augmented Generation)", level: 75 },
+      { name: "CrewAI / LangGraph / LangChain", level: 72 },
+      { name: "N8N / Automação de Workflows", level: 70 },
+      { name: "Prompt Engineering", level: 80 },
     ],
   },
   {
@@ -348,13 +368,12 @@ export const SKILLS = [
     ],
   },
   {
-    category: "Web & Cloud",
+    category: "Infra & Cloud",
     icon: "☁️",
     items: [
-      { name: "FastAPI / Node.js", level: 62 },
-      { name: "React / Next.js", level: 58 },
       { name: "Docker / Deploy", level: 60 },
       { name: "Azure", level: 55 },
+      { name: "Git / CI-CD", level: 65 },
     ],
   },
 ];
