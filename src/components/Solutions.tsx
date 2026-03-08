@@ -58,7 +58,7 @@ const SOLUTIONS: Solution[] = [
       "Modelos preditivos integrados a fluxos de decisão do negócio",
       "Plataformas interativas para planejamento comercial e operacional",
     ],
-    tags: ["Python", "Next.js", "Machine Learning", "Dados", "Simulação"],
+    tags: ["Python", "SQL", "Power BI", "Modelagem Preditiva", "Simulação", "Otimização"],
     color: "#A78BFA",
     gradient: "from-violet-950 via-violet-900 to-purple-900",
     accentFrom: "from-violet-500",
