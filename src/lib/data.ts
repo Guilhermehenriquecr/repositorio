@@ -306,6 +306,9 @@ export const SKILLS = [
       { name: "Programação Dinâmica", level: 74 },
       { name: "Otimização Estocástica & Robusta", level: 67 },
       { name: "Machine Learning Aplicado", level: 73 },
+      { name: "Redes Neurais", level: 68 },
+      { name: "NLP (Processamento de Linguagem Natural)", level: 70 },
+      { name: "Computer Vision", level: 62 },
     ],
   },
   {
