@@ -132,7 +132,7 @@ export const PROJECTS: Project[] = [
     title: "Agentes Conversacionais com IA Generativa",
     subtitle: "Assistentes inteligentes para múltiplos segmentos",
     summary:
-      "Agentes conversacionais com IA generativa para agronegócio, jurídico, financeiro, educação e psicologia. Orquestração multi-agente com CrewAI e LangGraph, RAG para base de conhecimento especializada, automação via N8N e integração com WhatsApp e e-mail.",
+      "Agentes conversacionais com IA generativa para agronegócio, jurídico, financeiro, educação e psicologia. Orquestração multi-agente com CrewAI e LangGraph, RAG para base de conhecimento especializada, automação via N8N e integração com WhatsApp, Google Agenda, e-mail e Suíte Office (Word, Excel, Sheets, Docs).",
     description:
       "Solução multi-agente com CrewAI e LangGraph para orquestração de LLMs especializados por domínio. Cada agente possui persona, ferramentas e base de conhecimento próprias via RAG. Fluxos de automação via N8N conectam os agentes a canais externos como WhatsApp e e-mail.",
     longDescription:
