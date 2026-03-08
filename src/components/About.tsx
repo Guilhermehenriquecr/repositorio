@@ -16,7 +16,7 @@ const ABOUT_HIGHLIGHTS = [
   {
     icon: <Cpu className="w-5 h-5" />,
     title: "Otimização & Pesquisa Operacional",
-    desc: "Engenheiro de Produção, mestrando em Otimização e MBA em andamento em Pesquisa Operacional, com aplicação prática em logística, planejamento e operações.",
+    desc: "Desenvolvo modelos e soluções para reduzir custos, melhorar alocação de recursos, aumentar eficiência operacional e apoiar decisões mais estratégicas.",
     color: "text-violet-400",
     bg: "bg-violet-500/10 border-violet-500/20",
   },
