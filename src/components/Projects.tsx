@@ -14,8 +14,8 @@ import {
 import { PROJECTS, type Project } from "@/lib/data";
 import { useRouter } from "next/navigation";
 
-type Category = "Todos" | "Otimização" | "Dados" | "Full-Stack" | "Análise";
-const CATEGORIES: Category[] = ["Todos", "Otimização", "Dados", "Full-Stack", "Análise"];
+type Category = "Todos" | "Otimização" | "Dados" | "Full-Stack" | "Análise" | "IA";
+const CATEGORIES: Category[] = ["Todos", "Otimização", "Dados", "Full-Stack", "Análise", "IA"];
 
 // ── Card compacto — usado na seção pública ──────────────────────────────────
 function CompactProjectCard({ project, index }: { project: Project; index: number }) {

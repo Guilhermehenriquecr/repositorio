@@ -52,7 +52,7 @@ export type Project = {
   gradient: string;
   highlights: string[];
   isRestricted: boolean;
-  category: "Otimização" | "Dados" | "Full-Stack" | "Análise" | "Automação";
+  category: "Otimização" | "Dados" | "Full-Stack" | "Análise" | "Automação" | "IA";
 };
 
 export const PROJECTS: Project[] = [
@@ -151,7 +151,7 @@ export const PROJECTS: Project[] = [
       "Arquitetura modular: base única, múltiplos perfis de especialidade implantáveis independentemente",
     ],
     isRestricted: false,
-    category: "Full-Stack",
+    category: "IA",
   },
   {
     id: "classificador-docs",
@@ -175,7 +175,7 @@ export const PROJECTS: Project[] = [
       "Redução do tempo de análise manual e padronização do processo de validação",
     ],
     isRestricted: false,
-    category: "Análise",
+    category: "IA",
   },
   // PROJETOS RESTRITOS — Boa Safra
   {
