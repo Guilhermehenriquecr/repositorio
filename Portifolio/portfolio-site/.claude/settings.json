@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-keygen -t ed25519 -C \"portfolio-site-deploy\" -f ~/.ssh/portfolio_deploy -N \"\")",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
